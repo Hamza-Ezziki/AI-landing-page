@@ -1,11 +1,31 @@
 import React from "react";
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  WhatGPT3,
+} from "./containers";
+import { CTA, Brand, NavBar } from "./compnents";
+import Navbar from "./compnents/navbar/NavBar";
+import "./App.css";
 
 function App() {
-
   return (
-    <>
-      <h1>Hamza</h1>
-    </>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
   );
 }
 

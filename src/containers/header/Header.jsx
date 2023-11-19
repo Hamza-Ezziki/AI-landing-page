@@ -1,0 +1,25 @@
+import React from "react";
+import "./header.css";
+const Header = () => {
+  return (
+    <div className="gpt3__header section__padding">
+      <div className="gpt3__header-content">
+        <h1 className="gradient__text">
+          Let's Build Something amazing with GPT-3 OpenAI
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a
+          nisi, quam molestiae assumenda officia beatae voluptas qui tenetur
+          quis commodi, sequi quasi animi? Quasi aspernatur dignissimos deserunt
+          neque culpa.
+        </p>
+        <div className="gpt3__header-content__input">
+          <input type="email" placeholder="Your Email Address" />
+          <button type="button">Get Started</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
