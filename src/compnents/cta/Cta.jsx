@@ -1,7 +1,15 @@
 import React from "react";
 import './cta.css'
 const CTA = () => {
-  return <div>CTA</div>;
+  return <div className="gpt3__cta">
+    <div className="gpt3__cta-content">
+      <p>Request early access to get started</p>
+      <h3>Lorem, ipsum dolor sit amet consectetur adipisicing eli Eligendi.</h3>
+    </div>
+    <div className="gpt3__cta-btn">
+      <button type="button">Get Started</button>
+    </div>
+  </div>;
 };
 
 export default CTA;
